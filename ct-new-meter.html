@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`ct-new-meter`
+Element for creating new meters
+
+@demo demo/index.html 
+-->
+
+<dom-module id="ct-new-meter">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'ct-new-meter',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'ct-new-meter',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
